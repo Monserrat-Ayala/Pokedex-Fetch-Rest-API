@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Cutre</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="fetch-pokemon.js" async defer></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Contenedor para la tarjeta del Pokémon -->
+        <div class="card-container" id="pokemon-container"></div>
+
+        <!-- Fila con el input para ingresar el nombre del Pokémon -->
+        <div class="row">
+            <label for="pokemon-name">¿Quién es ese pokémon? </label>
+            <input type="text" id="pokemon-name" placeholder="Lugia">
+        </div>
+
+        <!-- Botones para navegar entre Pokémones y buscar el actual -->
+        <div class="container row">
+            <button class="btn-primary" id="prev-btn">Previous</button>
+            <button class="btn-primary" id="get-btn">Get Pokémon</button>
+            <button class="btn-primary" id="next-btn">Next</button>
+        </div>
+    </div>
+</body>
+
+</html>
